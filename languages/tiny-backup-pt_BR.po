@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Backup 1.0.0\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Tiny Backup"
+msgstr "Tiny Backup"
+
+#. translators: %s: a size, like 4.2 GB.
+#, php-format
+msgid "more than %s"
+msgstr "mais de %s"
+
+msgid "size unavailable"
+msgstr "tamanho indisponível"
+
+#. translators: %s: list of folders with their sizes.
+#, php-format
+msgid "Found here: %s."
+msgstr "Encontradas aqui: %s."
+
+msgid "No cache or backup folders on this site."
+msgstr "Nenhuma pasta de cache ou backup neste site."
+
+msgid "Your download will start in a moment…"
+msgstr "Seu download vai começar em instantes…"
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Sorry, you are not allowed to download backups."
+msgstr "Desculpe, você não tem permissão para baixar backups."
+
+msgid "Unknown backup type."
+msgstr "Tipo de backup desconhecido."
+
+msgid "Each backup is built while it downloads and goes straight to your computer, so nothing is left on the server. Big sites can take a few minutes: keep this tab open until the download finishes."
+msgstr "Cada backup é gerado enquanto é baixado e vai direto para o seu computador, então nada fica guardado no servidor. Sites grandes podem levar alguns minutos: mantenha esta aba aberta até o download terminar."
+
+msgid "Database"
+msgstr "Banco de dados"
+
+#. translators: %s: table prefix, like wp_.
+#, php-format
+msgid "Every table starting with %s, as a SQL file you can import with phpMyAdmin, Adminer or WP-CLI."
+msgstr "Todas as tabelas que começam com %s, em um arquivo SQL que você pode importar com phpMyAdmin, Adminer ou WP-CLI."
+
+#. translators: 1: number of tables, 2: their size, like 45 MB.
+#, php-format
+msgid "%1$s table, %2$s"
+msgid_plural "%1$s tables, %2$s"
+msgstr[0] "%1$s tabela, %2$s"
+msgstr[1] "%1$s tabelas, %2$s"
+
+msgid "Compress (.sql.gz)"
+msgstr "Compactar (.sql.gz)"
+
+msgid "Download database"
+msgstr "Baixar banco de dados"
+
+msgid "Themes, plugins, translations and everything else your site keeps in this folder."
+msgstr "Temas, plugins, traduções e tudo mais que o seu site guarda nesta pasta."
+
+msgid "Uploads"
+msgstr "Uploads"
+
+msgid "Without uploads"
+msgstr "Sem uploads"
+
+msgid "With uploads"
+msgstr "Com uploads"
+
+msgid "Skip caches and backups made by other plugins"
+msgstr "Ignorar caches e backups feitos por outros plugins"
+
+#. translators: %s: folder name, usually wp-content.
+#, php-format
+msgid "Download %s"
+msgstr "Baixar %s"
+
+#. translators: %s: path of the uploads folder, like wp-content/uploads.
+#, php-format
+msgid "Only the media library (%s), usually the biggest part of a site."
+msgstr "Só a biblioteca de mídia (%s), geralmente a maior parte do site."
+
+msgid "Download uploads"
+msgstr "Baixar uploads"
+
+msgid "Restoring"
+msgstr "Como restaurar"
+
+#. translators: %s: the wp db import command.
+#, php-format
+msgid "Database: import the .sql or .sql.gz file with phpMyAdmin, Adminer or %s. It replaces the tables with the same names."
+msgstr "Banco de dados: importe o arquivo .sql ou .sql.gz com phpMyAdmin, Adminer ou %s. Ele substitui as tabelas de mesmo nome."
+
+#. translators: 1: folder name, usually wp-content, 2: wp-config.php.
+#, php-format
+msgid "Files: each zip holds the %1$s folder itself. Extract it in the WordPress folder (the one with %2$s), replacing what is there."
+msgstr "Arquivos: cada zip contém a própria pasta %1$s. Extraia na pasta do WordPress (a que tem o %2$s), substituindo o que estiver lá."
+
+#. translators: %s: number of seconds.
+#, php-format
+msgid "This server stops PHP after %s seconds and does not let plugins change that, so very big downloads may be cut short. If that happens, download wp-content and uploads separately."
+msgstr "Este servidor interrompe o PHP após %s segundos e não deixa plugins mudarem isso, então downloads muito grandes podem ser cortados. Se acontecer, baixe o wp-content e os uploads separadamente."
+
+msgid "No database tables were found."
+msgstr "Nenhuma tabela foi encontrada no banco de dados."
+
+msgid "The wp-content folder could not be read."
+msgstr "Não foi possível ler a pasta wp-content."
+
+msgid "There is no uploads folder yet."
+msgstr "Ainda não existe uma pasta de uploads."
+
+msgid "Tiny Backup left these out of the archive:"
+msgstr "O Tiny Backup deixou estes itens fora do arquivo:"
+
+msgid "could not be read"
+msgstr "não pôde ser lido"
+
+msgid "symbolic link to a folder, not followed"
+msgstr "link simbólico para uma pasta, não seguido"
+
+#. Plugin description.
+msgid "Download your database and wp-content folder (with or without uploads) straight from the dashboard."
+msgstr "Baixe o banco de dados e a pasta wp-content (com ou sem uploads) direto do painel."
